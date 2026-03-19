@@ -1,0 +1,66 @@
+/* ===== 争端解决仪 Design Tokens ===== */
+/* 参考风格：Claude (claude.ai) — 暖米白/橙棕/克制留白 */
+
+:root {
+  /* ── 背景 ── */
+  --color-bg:             #FAF9F7;
+  --color-surface:        #FFFFFF;
+  --color-surface-2:      #F5F4F0;
+  --color-border:         #E8E5DF;
+  --color-border-strong:  #D4CFC6;
+
+  /* ── 主色 ── */
+  --color-primary:        #D97757;
+  --color-primary-hover:  #C4673F;
+  --color-primary-light:  #FDF0EB;
+
+  /* ── 文字 ── */
+  --color-text:           #1A1915;
+  --color-text-muted:     #6B6860;
+  --color-text-subtle:    #9C9A94;
+
+  /* ── 语义色 ── */
+  --color-success:        #2D7D46;
+  --color-success-bg:     #F0FAF4;
+  --color-warning:        #B45309;
+  --color-warning-bg:     #FFFBEB;
+  --color-danger:         #C0392B;
+  --color-danger-bg:      #FEF2F2;
+  --color-info:           #1D6FA4;
+  --color-info-bg:        #EFF6FF;
+
+  /* ── 圆角 ── */
+  --radius-sm:  4px;
+  --radius-md:  8px;
+  --radius-lg:  12px;
+  --radius-xl:  16px;
+
+  /* ── 阴影 ── */
+  --shadow-sm:  0 1px 2px rgba(0,0,0,.05);
+  --shadow-md:  0 2px 8px rgba(0,0,0,.07);
+  --shadow-lg:  0 4px 16px rgba(0,0,0,.09);
+
+  /* ── 字体 ── */
+  --font-heading: 'Styrene A', Georgia, serif;
+  --font-body:    -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  /* ── 动效 ── */
+  --transition-fast: 100ms ease-out;
+  --transition-normal: 150ms ease-out;
+  --transition-page: 200ms ease-out;
+}
+
+/* ===== 全局重置 ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+body { min-height: 100vh; }
+
+a { color: var(--color-primary); text-decoration: none; }
+a:hover { color: var(--color-primary-hover); }

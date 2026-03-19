@@ -1,0 +1,23 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    volumes:
+      - debate_data:/data
+    environment:
+      - DEBATES_BASE=/data/debates
+      - CONFIG_PATH=/data/config.json
+      - CHECKPOINT_DB=/data/checkpoints.db
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  debate_data:

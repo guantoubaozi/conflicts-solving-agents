@@ -1,0 +1,41 @@
+# Runtime data
+debates/
+config.json
+
+# SQLite checkpoints
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+*.egg
+
+# Node
+node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pytest
+.pytest_cache/
+
+# Build artifacts
+*.tsbuildinfo
+
+# Internal development docs
+争端解决仪_服务开发需求文档.md
+争端解决仪需求.md
+开发启动提示词.md
+开发计划.md
+迭代开发提示词.md
+ITERATION_PLAN.md
