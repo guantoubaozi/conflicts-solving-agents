@@ -16,6 +16,12 @@ Conflicts Solving Agents 提供了一种结构化的分歧解决机制：
 
 整个过程中，AI 不替代人做决定，而是作为中立的梳理者和组织者，帮助讨论保持结构化和高效。人工在每轮结束后介入确认，始终掌握最终决策权。
 
+<img width="2998" height="1676" alt="image" src="https://github.com/user-attachments/assets/15f1e78f-d5c4-420d-b567-593be46352b4" />
+
+<img width="2956" height="1710" alt="image" src="https://github.com/user-attachments/assets/6f49ed85-808d-48c0-b9d0-80132b03df85" />
+
+<img width="2558" height="1694" alt="image" src="https://github.com/user-attachments/assets/a2ac0271-fcc9-4ee6-ba03-2fe7590665d4" />
+
 ## 核心特性
 
 - **多方参与**：支持两方或多方同时参与讨论，每方由独立的 AI Agent 代理，确保上下文隔离
